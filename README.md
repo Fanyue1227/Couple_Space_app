@@ -62,7 +62,6 @@ pip install -r requirements.txt
 
     ```ini
     
-    # file: .env
     DATABASE_URL=mysql+pymysql://你的用户名:你的密码@localhost:3306/qlxz_app?charset=utf8mb4
 
     ```
