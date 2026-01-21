@@ -8,8 +8,8 @@
     <td style="border: none;"><img src="img/file-20260121201435590.png" width="200" /></td>
   </tr>
 </table>
- 这是一个记录情侣生活的app，有纪念日、恋爱相册、todolist功能，前端用的flutter后端用的python。需要自己在服务器中部署。app首次打开时可以配置服务器信息。软件会自动缓存服务器数据，离线时也可以使用。
-
+ 这是一个记录情侣生活的app，有纪念日、恋爱相册、todolist功能，前端用的flutter后端用的python，需要自己在服务器中部署。app首次打开时可以配置服务器信息。软件会自动缓存服务器数据，离线时也可以使用。
+   - 此软件参考了likegirl的网站
    - 每个界面背景都可以自己替换
    - 相册可上传视频、可评论
    - 默认用户是 boy  密码love2026与用户girl  密码love2026
