@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: qlxz_app
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    restart: always
+
+  backend:
+    build: .
+    volumes:
+      - ./static:/app/static
+      # Mount migration script if you want to run it manually
+      - ./migrate_data.py:/app/migrate_data.py
+      # Mount your SQL dump if you want to access it container
+      - ../0.0.0.0_2714/0_0_0_0_2714_2026-01-20_14-40-38_mysql_data_sLxjW.sql:/app/dump.sql
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: mysql+pymysql://root:root@db:3306/qlxz_app?charset=utf8mb4
+    depends_on:
+      - db
+    restart: always
+
+volumes:
+  db_data:
