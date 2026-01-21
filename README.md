@@ -1,5 +1,13 @@
 # 简介
-![|200](img/file-20260121201256037.png)![|200](img/file-20260121201326941.png)![|200](img/file-20260121201354741.png)![|200](img/file-20260121201422018.png)![|200](img/file-20260121201435590.png)
+<table style="border: none; text-align: center;">
+  <tr>
+    <td style="border: none;"><img src="img/file-20260121201256037.png" width="200" /></td>
+    <td style="border: none;"><img src="img/file-20260121201326941.png" width="200" /></td>
+    <td style="border: none;"><img src="img/file-20260121201354741.png" width="200" /></td>
+    <td style="border: none;"><img src="img/file-20260121201422018.png" width="200" /></td>
+    <td style="border: none;"><img src="img/file-20260121201435590.png" width="200" /></td>
+  </tr>
+</table>
  这是一个记录情侣生活的app，有纪念日、恋爱相册、todolist功能，需要自己在服务器中部署，app首次打开时可以配置服务器信息。软件会自动缓存服务器数据，离线时也可以使用。
 
    - 每个界面背景都可以自己替换
