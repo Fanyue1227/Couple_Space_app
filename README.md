@@ -60,11 +60,9 @@ pip install -r requirements.txt
 
 2.  打开 `qlxz_backend` 目录下的 `.env` 文件，修改数据库连接信息：
 
-    ```ini
-    
+```ini
     DATABASE_URL=mysql+pymysql://你的用户名:你的密码@localhost:3306/qlxz_app?charset=utf8mb4
-
-    ```
+```
 
 ### 第四步：启动服务
 
