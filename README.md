@@ -41,6 +41,7 @@
 ```bash
 #进入目录
 cd /www/wwwroot/qlxz_backend
+```
 
 # 建议先创建虚拟环境 (可选)
 python3 -m venv venv
@@ -51,6 +52,7 @@ source venv/bin/activate  # Linux
 # .\venv\Scripts\activate # Windows
 
 # 安装依赖
+```shell
 pip install -r requirements.txt
 ```
 
