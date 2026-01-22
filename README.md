@@ -81,12 +81,8 @@ pip install -r requirements.txt
 
     *   **运行目录**: `/www/wwwroot/qlxz_backend`
 
-    *   **启动命令**: (注意端口为 8000)
-
-        ```bash
-        
-        /www/wwwroot/qlxz_backend/venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000
-        ```
+    *   **启动命令**: (注意端口为 8000)    
+`/www/wwwroot/qlxz_backend/venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000`
 
     *   **进程数量**: 1
 
