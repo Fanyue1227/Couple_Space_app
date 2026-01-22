@@ -128,11 +128,11 @@ tail -f server.log
 
     *   例如 Supervisor 命令改为：
 
-        ```bash
+```bash
 
         /www/wwwroot/qlxz_backend/venv/bin/uvicorn main:app --host 0.0.0.0 --port 8001
 
-        ```
+```
 
 3.  **重启** 后端服务，确保它在 8001 端口运行。
 
